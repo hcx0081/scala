@@ -1,0 +1,18 @@
+package com.scala.loop
+
+/**
+ * {@code @description:} ${description}
+ */
+class ForLoop {
+}
+
+object ForLoop {
+  def main(args: Array[String]): Unit = {
+    for (i <- 1 to 10) {
+      println(i)
+    }
+
+    Array()
+  }
+}
+
