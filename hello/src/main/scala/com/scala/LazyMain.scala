@@ -5,14 +5,19 @@ package com.scala
  */
 object LazyMain {
   def main(args: Array[String]): Unit = {
-    def hello(): Unit = {
-      println("hello")
+    def hello(): String = {
+      "hello"
     }
     
-    val h = hello _
+    val h = hello()
+    
+    // val hello: () => String = () => "Hello"
+    //
+    // val h = hello
+    
     
     println("before")
-    println(h())
+    // println(h())
     println("after")
   }
 }
