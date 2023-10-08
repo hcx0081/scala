@@ -4,20 +4,13 @@ package com.scala.clzAndObj
  * {@code @description:} ${description}
  */
 class People {
-  def hello1(): People = {
-    println("hello1")
-    this
-  }
-
-  def hello2(): People = {
-    println("hello2")
-    this
-  }
+  var name: String = _
+  var age: Int = _
 }
 
 object People {
   def main(args: Array[String]): Unit = {
     val people = new People
-    people hello1() hello2()
+    println(people.name)
   }
 }

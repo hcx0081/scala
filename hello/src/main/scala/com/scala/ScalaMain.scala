@@ -3,7 +3,7 @@ package com.scala
 /**
  * {@code @description:} ${description}
  */
-object MainScala {
+object ScalaMain {
   def main(args: Array[String]): Unit = {
     println("Hello world!")
   }

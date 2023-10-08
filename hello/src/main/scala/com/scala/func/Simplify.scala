@@ -3,12 +3,12 @@ package com.scala.func
 /**
  * {@code @description:} ${description}
  */
-object SimplifyMain {
+object Simplify {
   def main(args: Array[String]): Unit = {
     def fun(f: String => Unit): Unit = {
       f("hello")
     }
-    
+
     fun((mes: String) => {
       println(mes)
     })
