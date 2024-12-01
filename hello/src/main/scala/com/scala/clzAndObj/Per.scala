@@ -14,6 +14,6 @@ class Per private(name: String) {
 
 object Per {
   def newPer(name: String) = new Per(name)
-
+  
   def apply(name: String) = new Per(name)
 }
