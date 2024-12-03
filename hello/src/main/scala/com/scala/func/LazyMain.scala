@@ -1,23 +1,20 @@
-package com.scala
+package com.scala.func
 
-/**
- * {@code @description:} ${description}
- */
 class LazyMain {
   println("foo before")
   // 延迟加载
   lazy val foo: String = initFoo()
   println("foo after")
-
+  
   println("bar before")
   val bar: String = initBar()
   println("bar after")
-
+  
   def initFoo(): String = {
     println("initFoo exec")
     "foo"
   }
-
+  
   def initBar(): String = {
     println("initBar exec")
     "bar"

@@ -2,16 +2,13 @@ package com.scala.func
 
 import scala.annotation.tailrec
 
-/**
- * {@code @description:} ${description}
- */
 object Fact {
   def main(args: Array[String]): Unit = {
     // def factorial(n: Int): Int = {
     //   if (n <= 1) return 1
     //   factorial(n - 1) * n
     // }
-
+    
     def factorial(n: Int): Int = {
       @tailrec
       def loop(num: Int, acc: Int): Int = {

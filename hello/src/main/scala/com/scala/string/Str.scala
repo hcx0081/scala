@@ -1,8 +1,5 @@
 package com.scala.string
 
-/**
- * {@code @description:} ${description}
- */
 object Str {
   def main(args: Array[String]): Unit = {
     println(s"2 + 2 = ${2 + 2}") // 2 + 2 = 4

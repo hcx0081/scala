@@ -1,8 +1,5 @@
 package com.scala.io
 
-/**
- * {@code @description:} ${description}
- */
 class Std {
 
 }

@@ -1,8 +1,5 @@
 package com.scala.op
 
-/**
- * {@code @description:} ${description}
- */
 class Operator {
 
 }

@@ -1,8 +1,5 @@
 package com.scala.func
 
-/**
- * {@code @description:} ${description}
- */
 object Trans {
   def main(args: Array[String]): Unit = {
     /* 作为值传递 */

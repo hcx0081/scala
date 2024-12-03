@@ -2,9 +2,6 @@ package com.scala.loop
 
 import scala.language.postfixOps
 
-/**
- * {@code @description:} ${description}
- */
 class ForLoop {
 }
 

@@ -23,8 +23,15 @@ object Param {
     //
     // println(addByName(1, 2 + 2)) // 5
     //
-    // def addByNameXxx(a: Int, b: () => Int): Int = a + b
+    // def addByFunc(a: Int, b: () => Int): Int = a + b
     //
-    // println(addByNameXxx(1, () => 2 + 2)) // 5
+    // println(addByFunc(1, () => 2 + 2)) // 5
+    
+    
+    def addByName(a: => Int): Int = a
+    
+    println(addByName {
+      2 + 2
+    }) // 5
   }
 }

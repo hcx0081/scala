@@ -1,8 +1,5 @@
 package com.scala.func
 
-/**
- * {@code @description:} ${description}
- */
 object Func {
   def main(args: Array[String]): Unit = {
     // def func(a: Boolean): Int => String => Char = {

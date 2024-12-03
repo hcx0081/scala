@@ -1,8 +1,5 @@
 package com.scala.sw
 
-/**
- * {@code @description:} ${description}
- */
 class Sw {
 
 }
