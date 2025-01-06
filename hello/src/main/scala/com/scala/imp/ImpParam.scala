@@ -8,11 +8,12 @@ object ImpParam {
     //   println(s"hello, $name!")
     // }
     //
-    // sayHi()
+    // sayHi() // hello, zs!
+    
     def sayHi(): Unit = {
       println(s"hello, ${implicitly[String]}!")
     }
     
-    sayHi()
+    sayHi() // hello, zs!
   }
 }

@@ -1,6 +1,5 @@
 package com.scala.imp
 
-
 object ImpFunc {
   def main(args: Array[String]): Unit = {
     // val myInt = new MyInt(10)
